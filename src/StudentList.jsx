@@ -10,9 +10,11 @@ class StudentList extends Component{
 
     componentDidMount(){
         this.setState({isLoading:true});
-        setTimeout(() => {
+        //setTimeout - execute once after n seconds
+        //every 3 seconds
+        setInterval(() => {
             this.setState({
-                arr:this.props.list,
+                arr:this.shuffle(this.props.list),
                 isLoading: false
             })
         }, 3000);
