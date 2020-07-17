@@ -1,38 +1,35 @@
+body{
+background: linear-gradient(to left, #00b894, #78fde3 50%, #bdfff2 100%);
+  margin: 10%;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid white;
+  margin: 10px 160px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  width: 200px;
+  height: 200px;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.2);
   color: white;
+  border-radius: 100%;    
+  cursor: pointer;
+  box-shadow: 0 9px 5px rgba(0, 0, 0, .6);
 }
 
-.App-link {
-  color: #61dafb;
+.challengetitle{
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-large{
+  text-align: center;
 }
